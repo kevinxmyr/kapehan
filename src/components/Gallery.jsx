@@ -1,6 +1,6 @@
 import React from "react";
 import { BsInstagram } from "react-icons/bs";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import pic1 from "../assets/gallery1.jpg";
 import pic2 from "../assets/gallery2.jpg";
 import pic3 from "../assets/gallery3.jpg";

@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import picture from "../assets/hand-crafted-section3.jpeg";
 
 export default function Wecare() {

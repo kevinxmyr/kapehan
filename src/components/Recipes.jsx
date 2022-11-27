@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import pic2 from "../assets/recipes-pic.jpeg";
 import pic3 from "../assets/recipes-pic1.jpg";
 
