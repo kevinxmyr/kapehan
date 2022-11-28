@@ -64,7 +64,7 @@ export default function Recipes() {
           our quarterly Hand Crafted courses in our store.
         </p></Fade>
       </div>
-
+{/* TEST */}
       {/* BLANK 3 */}
       <div className=' col-start-1 row-start-5'></div>
 
