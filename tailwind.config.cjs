@@ -8,6 +8,7 @@ module.exports = {
     screens: {
       'iPhone': '414px',
       'iPad': '768px',
+      'ipadpro': '1024px',
       'lt': '1200px'
     },
     extend: {
@@ -27,7 +28,8 @@ module.exports = {
         'index-margin': '0 8.5rem'
       },
       colors: {
-        beige: '#DAD8D3'
+        beige: '#DAD8D3',
+        itim: '#181E21'
       }
     }
   },

@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { smallbites } from "../data/smallbites";
 
-const Container = (props) => {
+const Container = ({children}) => {
   return (
     // CONTAINER OF ALL
     <div className='max-w-[768px] lt:flex lt:flex-col mx-[auto] py-[2rem] flex flex-col'>
@@ -10,7 +10,7 @@ const Container = (props) => {
         small bites
       </div>
       <div className="lt:grid lt:grid-cols-2 lt:gap-16">
-        {props.children}
+        {children}
       </div>
       <div>
         <Link to='/menu'>
@@ -43,7 +43,7 @@ const Item = (props) => {
 export default function Smallbites() {
   const Loop = smallbites.map((item) => {
     return (
-      <div className=''>
+      <div className='' key={item.title}>
         <Item
           title={item.title}
           description={item.description}

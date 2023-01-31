@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
-import { BookATable } from './components/BookATable'
+// import { BookATable } from './components/BookATable'
 import Credits from './components/Credits'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
