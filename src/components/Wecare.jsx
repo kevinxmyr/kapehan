@@ -2,6 +2,7 @@ import React from 'react';
 import { Fade } from 'react-awesome-reveal';
 import picture from '../assets/hand-crafted-section3.jpeg';
 
+
 export default function Wecare() {
 	return (
 		<div className='bg-beige p-12 ipadpro:p-20'>
