@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import picture from "../assets/hand-crafted-section3.jpeg";
-
+// FROM NEW BRANCHasdfasdf
 export default function Wecare() {
   return (
     <div
