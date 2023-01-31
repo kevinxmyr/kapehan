@@ -9,8 +9,7 @@ export default function Hero2() {
       flex
       justify-center
       
-      iPad:max-w-[auto]
-      lt:h-[70vh]  
+      iPad:max-w-[auto]  
       lt:justify-start 
       '>
       <Fade distance='2rem' bottom delay={1250}>

@@ -3,7 +3,7 @@ import React from "react";
 export default function ContactItem(props) {
   const keysLoop = props.item.map((key) => {
     const test = Math.random(key)
-    console.table(key)
+
     return (
        <div key={test}>
           <div className="uppercase mb-2 font-rufina">

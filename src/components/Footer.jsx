@@ -72,10 +72,10 @@ export default function Footer() {
 
         {/* SOCIAL MEDIA */}
         <div className="flex ">
-          <a href='#'>
+          <a href='https://www.facebook.com/Fluffkoppicafe/' target='_blank'>
             <img className="w-[auto] h-[2rem] mr-[1rem]" src={fb} alt='fb' />
           </a>
-          <a href='#'>
+          <a href='https://www.instagram.com/fluffkoppicafe/?hl=en' target='_blank'>
             <img className="w-[auto] h-[2rem]" src={ig} alt='ig' />
           </a>
         </div>
